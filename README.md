@@ -34,6 +34,19 @@ I. Tạo Databasic bao gồm table và stored procedures.
 	)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 	) ON [PRIMARY]
 
+ --  ResultSlots
+	CREATE TABLE [dbo].[ResultSlots](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[DateResuls] [date] NOT NULL,
+	[SlotResul] [varchar](3) NOT NULL,
+	[Resuls] [varchar](2) NULL,
+	 CONSTRAINT [PK_ResultSlots] PRIMARY KEY CLUSTERED 
+	(
+	[DateResuls] ASC,
+	[SlotResul] ASC
+	)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+	) ON [PRIMARY]
+
  2. Stored procedures
   
   -- LoginUser
@@ -96,6 +109,38 @@ I. Tạo Databasic bao gồm table và stored procedures.
 	BEGIN
 	SELECT DateBet, HourSlot,NumberBet,MoneyBet,Results  FROM UserBet WHERE PhoneNumber=@PhoneNumber 
 	ORDER BY DateBet DESC
+	END
+ -- CreateResultSlot 
+	CREATE Proc CreateResultSlot @Date Date, @Slot varchar(2), @Res varchar(2)
+	AS
+	BEGIN
+	 IF NOT EXISTS(SELECT * FROM  ResultSlots Where DateResuls=@Date and SlotResul=@Slot)
+ 	begin
+	INSERT INTO ResultSlots(DateResuls,SlotResul,Resuls)
+	VALUES(@Date,@Slot,@Res)
+ 	end
+	END
+
+ -- UserResultSlot 
+ CREATE PROC UserResultSlot @Date Date, @Slot varchar(2)
+	AS
+	BEGIN
+	Declare @ResSlot varchar(2)
+	SET @ResSlot=(SELECT Resuls FROM ResultSlots WHERE DateResuls=@Date and SlotResul=@Slot)
+
+
+	UPDATE UserBet   SET UserBet.Results =N'Thắng' 
+	WHERE CONVERT(DATE, UserBet.DateBet)=@Date 
+		and HourSlot=@Slot
+		AND NumberBet=@ResSlot
+	
+
+
+	 UPDATE UserBet   SET UserBet.Results =N'Thua' 
+	WHERE CONVERT(DATE, UserBet.DateBet)=@Date 
+		and HourSlot=@Slot
+		AND NumberBet != @ResSlot
+
 	END
 
 II. Đổi chuỗi kết nối database trong code c#.
