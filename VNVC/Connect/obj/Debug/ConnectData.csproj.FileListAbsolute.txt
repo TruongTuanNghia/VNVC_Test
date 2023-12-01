@@ -4,3 +4,9 @@ D:\PV\VNVC\Project\VNVC\Connect\obj\Debug\ConnectData.csproj.AssemblyReference.c
 D:\PV\VNVC\Project\VNVC\Connect\obj\Debug\ConnectData.csproj.CoreCompileInputs.cache
 D:\PV\VNVC\Project\VNVC\Connect\obj\Debug\Connect.dll
 D:\PV\VNVC\Project\VNVC\Connect\obj\Debug\Connect.pdb
+D:\PV\VNVC\Git\VNVC\Connect\bin\Debug\Connect.dll
+D:\PV\VNVC\Git\VNVC\Connect\bin\Debug\Connect.pdb
+D:\PV\VNVC\Git\VNVC\Connect\obj\Debug\ConnectData.csproj.AssemblyReference.cache
+D:\PV\VNVC\Git\VNVC\Connect\obj\Debug\ConnectData.csproj.CoreCompileInputs.cache
+D:\PV\VNVC\Git\VNVC\Connect\obj\Debug\Connect.dll
+D:\PV\VNVC\Git\VNVC\Connect\obj\Debug\Connect.pdb

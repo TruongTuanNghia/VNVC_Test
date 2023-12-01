@@ -33,6 +33,7 @@ namespace VNVC
             this.btnLogin = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lbRegister = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtPhoneNumber
@@ -74,18 +75,29 @@ namespace VNVC
             this.lbRegister.Text = "Đăng ký";
             this.lbRegister.Click += new System.EventHandler(this.lbRegister_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(198, 34);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(150, 20);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Mời bạn đăng nhập";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(585, 280);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.lbRegister);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPhoneNumber);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Login";
-            this.Text = "Login";
+            this.Text = "Đăng nhập";
             this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -98,6 +110,7 @@ namespace VNVC
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lbRegister;
+        private System.Windows.Forms.Label label2;
     }
 }
 
