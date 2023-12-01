@@ -1,0 +1,15 @@
+D:\PV\VNVC\Project\VNVC\VNVC\bin\Debug\VNVC.exe.config
+D:\PV\VNVC\Project\VNVC\VNVC\bin\Debug\VNVC.exe
+D:\PV\VNVC\Project\VNVC\VNVC\bin\Debug\VNVC.pdb
+D:\PV\VNVC\Project\VNVC\VNVC\obj\Debug\VNVC.csproj.AssemblyReference.cache
+D:\PV\VNVC\Project\VNVC\VNVC\obj\Debug\VNVC.Login.resources
+D:\PV\VNVC\Project\VNVC\VNVC\obj\Debug\VNVC.Properties.Resources.resources
+D:\PV\VNVC\Project\VNVC\VNVC\obj\Debug\VNVC.csproj.GenerateResource.cache
+D:\PV\VNVC\Project\VNVC\VNVC\obj\Debug\VNVC.csproj.CoreCompileInputs.cache
+D:\PV\VNVC\Project\VNVC\VNVC\obj\Debug\VNVC.exe
+D:\PV\VNVC\Project\VNVC\VNVC\obj\Debug\VNVC.pdb
+D:\PV\VNVC\Project\VNVC\VNVC\bin\Debug\Connect.dll
+D:\PV\VNVC\Project\VNVC\VNVC\bin\Debug\Connect.pdb
+D:\PV\VNVC\Project\VNVC\VNVC\obj\Debug\VNVC.csproj.CopyComplete
+D:\PV\VNVC\Project\VNVC\VNVC\obj\Debug\VNVC.Register.resources
+D:\PV\VNVC\Project\VNVC\VNVC\obj\Debug\VNVC.frtUserBet.resources

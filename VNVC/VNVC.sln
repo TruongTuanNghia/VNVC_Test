@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNVC", "VNVC\VNVC.csproj", "{2F046870-C8A2-48A6-BDBD-4A84824F9883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectData", "Connect\ConnectData.csproj", "{0CADC362-06F0-4648-A343-5B6B1201792F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F046870-C8A2-48A6-BDBD-4A84824F9883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F046870-C8A2-48A6-BDBD-4A84824F9883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F046870-C8A2-48A6-BDBD-4A84824F9883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F046870-C8A2-48A6-BDBD-4A84824F9883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CADC362-06F0-4648-A343-5B6B1201792F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CADC362-06F0-4648-A343-5B6B1201792F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CADC362-06F0-4648-A343-5B6B1201792F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CADC362-06F0-4648-A343-5B6B1201792F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B3C1893-7CC3-449F-95D9-E932E2F0369E}
+	EndGlobalSection
+EndGlobal
