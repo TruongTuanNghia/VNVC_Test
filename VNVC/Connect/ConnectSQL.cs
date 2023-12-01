@@ -44,7 +44,8 @@ namespace Connect
 
 
         }
-        public static DataSet ExecDataSetSP(string pSPName, List<SqlParameter> pParams)
+       
+        public  DataSet ExecDataSetSP(string pSPName, List<SqlParameter> pParams)
         {
             DataSet ds = new DataSet();
             try

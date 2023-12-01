@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNVC", "VNVC\VNVC.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectData", "Connect\ConnectData.csproj", "{0CADC362-06F0-4648-A343-5B6B1201792F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerApp", "ServerApp\ServerApp.csproj", "{D6C12DA3-BF55-4264-9605-64FA047683EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0CADC362-06F0-4648-A343-5B6B1201792F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CADC362-06F0-4648-A343-5B6B1201792F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CADC362-06F0-4648-A343-5B6B1201792F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C12DA3-BF55-4264-9605-64FA047683EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C12DA3-BF55-4264-9605-64FA047683EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C12DA3-BF55-4264-9605-64FA047683EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C12DA3-BF55-4264-9605-64FA047683EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

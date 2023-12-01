@@ -101,6 +101,8 @@ I. Tạo Databasic bao gồm table và stored procedures.
 II. Đổi chuỗi kết nối database trong code c#.
 	- Chuỗi kết nối data nằm trong class: ConnectSQL.cs
 
+III. Buid app và setup Task Scheduler trên windowm để chạy file Server tự tạo slot và trả kết quả cho người chơi theo mỗi slot
+
 
 
 
